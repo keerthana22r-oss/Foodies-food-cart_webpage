@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+body {
+    /* font-family: Arial, sans-serif;
+    background: linear-gradient(0,0,0,0.4),rgba(0,0,0,0.4), url("./download\ \(15\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to right, #ff9a9e, #fad0c4); */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-y: auto; */
+
+    font-family: Arial, sans-serif;
+
+    background: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("./Download\ premium\ psd\ _\ image\ of\ Candy\ and\ dessert\ decorated\ frame\ mockup\ by\ Noon\ about\ bakery\ frame\,\ sweet\,\ food\ frame\,\ macaron\,\ and\ candy\ background\ 2050624.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    /* width: 350px; */
+    padding-top: 50px;
+    margin: 60px auto;
+}
+
+fieldset {
+    width: 600px;
+    border: none;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 5px rgba(255,111,97,0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #ff6f61;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e85a4f;
+}
+</style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Signup</legend>
+            <label for="username">Username</label>
+            <input type="username" name="username" id="username" required>
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <br><br>
+            <label for="phnum">Phone Number</label>
+            <input type="tel" name="phnum" id="phnum" minlength="10" maxlength="10" required>
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+            <br><br>
+            <label for="DOB">DOB</label>
+            <input type="datetime-local" name="DOB" id="DOB">
+            <br><br>
+            <button>Submit</button>
+            <button>Reset</button>
+        </fieldset>
+    </form>
+</body>
+<script src="./signup.js"></script>
+</html>

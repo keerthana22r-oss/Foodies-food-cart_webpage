@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+    <h2>Foodies Food Cart🥢</h2>
+    <aside class="nav-items">
+        <a href="./homepage.html">Home</a>
+        <a href="./food.html">Food</a>
+        <a href="./cart.html">Cart</a>
+    </aside>
+    <aside class="personImage">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.pLW1qnPGY-bW2E3sT016OQHaHa?pid=Api&P=0&h=180" alt="" id="userImage">
+    </aside>
+  </nav>
+
+    <section class="cartContainer">
+        <h2>Your Cart Items</h2>
+    </section>
+    <section id="cart-items"></section>
+
+    <section class="cart-summary">
+        <h2 id="total-price"></h2>
+        <div class="btns">
+        <button onclick="clearCart()">Clear Cart</button>
+            <button onclick="checkout()">Checkout</button>
+            </div>
+    </section>
+</body>
+<script src="./cart.js"></script>
+</html>
